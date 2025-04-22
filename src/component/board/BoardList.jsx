@@ -24,7 +24,7 @@ function BoardList() {
 
 
     return (
-        <div className="max-w-xl mx-auto px-4 py-10 space-y-8">
+        <div className="max-w-xl mx-auto px-4 py-10 space-y-8 text-center">
             {/* 글쓰기 폼 */}
             <form onSubmit={handleSubmit} className="bg-white shadow p-6 rounded space-y-4">
                 <div className="text-gray-500 text-sm">📅 {new Date().toLocaleDateString()}</div>

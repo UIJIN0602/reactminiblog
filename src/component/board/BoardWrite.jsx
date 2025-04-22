@@ -6,7 +6,7 @@ function BoardWrite() {
 
 
   return (
-      <form className="bg-white shadow p-6 rounded space-y-4 max-w-xl mx-auto mt-10">
+      <form className="bg-white shadow p-6 rounded space-y-4 max-w-xl mx-auto mt-10 text-center">
           {/* 날짜 표시 */}
           <div className="text-gray-500 text-sm">📅 {new Date().toLocaleDateString()}</div>
 
@@ -21,7 +21,7 @@ function BoardWrite() {
           <div className="flex justify-end">
               <button
                   type="submit"
-                  className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+                  className="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600 transition"
               >
                   저장하기
               </button>
